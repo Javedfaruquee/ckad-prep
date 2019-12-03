@@ -15,8 +15,9 @@ Following are few samples which you should be able to do with use of imperative 
 
 # NOTE : Use imperative commands only
 
-
 <code> Create Pod with image=busybox which executes command : 'sleep 3600' </code>
+
+<code> Create Pod with image=busybox which executes command : 'sleep 3600' with label: "duration=onehr" </code>
 
 <code> Create a pod with name=busybox-pod, image=buysbox, namespace=ns-pod </code>
 
@@ -39,3 +40,10 @@ Following are few samples which you should be able to do with use of imperative 
 <code> Create a cronjob with name=busybox-cron, image=busybox, command : sleep 30 which runs every 5 minute. </code>
 
 
+# Pod & Lables
+
+## Label the existing pod.
+
+<code> Apply the label "img=busybox" to the busybox-pod </code>
+<code> Override the label "img" with the value "busybox-container" to the busybox-pod </code>
+<code> Remove the label "img" from the busybox-pod</code>
