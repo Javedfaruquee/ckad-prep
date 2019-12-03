@@ -4,11 +4,17 @@ Some Tip:
 
 The CKAD certification is an open book exam(you get access to kubernetes.io & its subdomain). And all question would have their answeres somehwere in the site however the KEY is to manage the time and clear as many questions as possible. 
 
-The key is accuracy with speed. You can not afford to learn the concept during the exam. You need actual hands-on otherwise it would be difficult.
+# The key is accuracy with speed. 
+
+You can not afford to learn the concept during the exam. You need actual hands-on otherwise it would be difficult.
 
 Sample Questions for CKAD
 
-# Use imperative commands only
+You must be very fluent in using imperative commands when working on kubernetes. 
+Following are few samples which you should be able to do with use of imperative commands only.
+
+# NOTE : Use imperative commands only
+
 
 <code> Create Pod with image=busybox which executes command : 'sleep 3600' </code>
 
