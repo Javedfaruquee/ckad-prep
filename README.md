@@ -45,5 +45,7 @@ Following are few samples which you should be able to do with use of imperative 
 ## Label the existing pod.
 
 <code> Apply the label "img=busybox" to the busybox-pod </code>
+
 <code> Override the label "img" with the value "busybox-container" to the busybox-pod </code>
+
 <code> Remove the label "img" from the busybox-pod</code>
