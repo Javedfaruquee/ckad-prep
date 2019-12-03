@@ -24,9 +24,9 @@ Following are few samples which you should be able to do with use of imperative 
 
 <code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns01 </code>
 
-<code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns01 and expose the deployment containerPort: 80 </code>
+<code> Create a deployment with name=busybox-deployment, image=buysbox, expose the deployment containerPort: 80 </code>
 
-<code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns01 and make it accessible on port 30080 on node</code>
+<code> Create a deployment with name=busybox-deployment, image=buysbox, make it accessible on port 30080 on node</code>
 
 <code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns02 </code>
 
@@ -34,7 +34,7 @@ Following are few samples which you should be able to do with use of imperative 
 
 <code> Create a job with name=busybox-job, image=busybox,args : echo date; sleep 10 and it should run 10 times with 3 at a time </code>
 
-<code> Create a job with name=busybox-job, image=busybox,args : sleep 30, and make sure kubernets should terminate the job if it runs for more then 25 seconds. </code>
+<code> Create a job with name=busybox-job, image=busybox,args : sleep 30, and job should be terminated if it runs for more then 25 seconds. </code>
 
 <code> Create a cronjob with name=busybox-cron, image=busybox, command : sleep 30 which runs every 5 minute. </code>
 
