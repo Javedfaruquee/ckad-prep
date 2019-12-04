@@ -39,7 +39,9 @@ Following are few samples which you should be able to do with use of imperative 
 
 <code> Create a cronjob with name=busybox-cron, image=busybox, command : sleep 30 which runs every 5 minute. </code>
 
-<code> 1. Create deployment with name=busybox-deploy, image=busybox 
+<code> 
+  
+       1. Create deployment with name=busybox-deploy, image=busybox 
   
        2. Once the pod is up & running, change the image of the deployment to my-busybox.
   <code>
