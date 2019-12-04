@@ -39,6 +39,10 @@ Following are few samples which you should be able to do with use of imperative 
 
 <code> Create a cronjob with name=busybox-cron, image=busybox, command : sleep 30 which runs every 5 minute. </code>
 
+<code> 1. Create deployment with name=busybox-deploy, image=busybox 
+  
+       2. Once the pod is up & running, change the image of the deployment to my-busybox.
+  <code>
 
 # Pod & Lables
 
@@ -49,3 +53,6 @@ Following are few samples which you should be able to do with use of imperative 
 <code> Override the label "img" with the value "busybox-container" to the busybox-pod </code>
 
 <code> Remove the label "img" from the busybox-pod</code>
+
+# Service and Networking
+<code> Create pod with busybox image and and expose it 
