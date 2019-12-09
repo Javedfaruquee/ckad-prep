@@ -8,7 +8,9 @@ The CKAD certification is an open book exam(you get access to kubernetes.io & it
 
 You can not afford to learn the concept during the exam. You need actual hands-on otherwise it would be difficult.
 
-Sample Questions for CKAD
+Below are few problem(s) that can be used for hands-on practicse on Kubernets.
+
+*This are not actual certification questions.
 
 You must be very fluent in using imperative commands when working on kubernetes. 
 Following are few samples which you should be able to do with use of imperative commands only.
@@ -21,6 +23,10 @@ Following are few samples which you should be able to do with use of imperative 
 
 <code> Create a pod with name=busybox-pod, image=buysbox, namespace=ns-pod </code>
 
+<code> Create a pod with name=busybox-pod, image=buysbox and run the command ' ls /var', once the command is completed the pod should automatically be deleted. </code>
+
+# Deployment 
+
 <code> Create a deployment with image=buysbox, replicas=3 in default namespace</code>
 
 <code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns01 </code>
@@ -30,6 +36,8 @@ Following are few samples which you should be able to do with use of imperative 
 <code> Create a deployment with name=busybox-deployment, image=buysbox, make it accessible on port 30080 on node</code>
 
 <code> Create a deployment with name=busybox-deployment, image=buysbox, namespace=ns02 </code>
+
+# Job(s) & Cronjobs
 
 <code> Create a job with name=busybox-job, image=busybox,args : echo date; sleep 10 </code>
 
@@ -53,4 +61,6 @@ Following are few samples which you should be able to do with use of imperative 
 <code> Remove the label "img" from the busybox-pod</code>
 
 # Service and Networking
-<code> Create pod with busybox image and and expose it 
+<code>  Create deployment with image:nginx and expose it on container port 8088 </code>
+
+<code>  Create deployment with image:nginx and expose it on port of the host node (nodePort) </code>
